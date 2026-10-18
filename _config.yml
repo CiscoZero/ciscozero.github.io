@@ -102,3 +102,11 @@ theme: aero
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# Theme config override
+theme_config:
+  profile:
+    enable: true
+    author: 'CiscoZero'
+    avatar: '/image/avatar.jpg'
+    avatar_link: 'https://github.com/CiscoZero'
