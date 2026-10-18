@@ -123,9 +123,9 @@ theme_config:
     songs:
       - title: '工场迹'
         artist: '光田康典'
-        cover: ''
+        cover: '/music/koujouseki_cover.png'
         url: '/music/koujouseki.mp3'
       - title: '幻灯機'
         artist: 'indigo2,v flower'
-        cover: ''
+        cover: '/music/gentouki_cover.png'
         url: '/music/gentouki.mp3'
