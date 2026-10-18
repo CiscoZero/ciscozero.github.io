@@ -1,0 +1,3 @@
+[submodule "themes/aero"]
+	path = themes/aero
+	url = https://github.com/5h1nnN/hexo-theme-aero.git
