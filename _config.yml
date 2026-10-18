@@ -110,3 +110,10 @@ theme_config:
     author: 'CiscoZero'
     avatar: '/image/avatar.jpg'
     avatar_link: 'https://github.com/CiscoZero'
+    social:
+      - name: Github
+        link: 'https://github.com/CiscoZero'
+        icon: /image/icon/github.png
+      - name: Bilibili
+        link: 'https://space.bilibili.com/43741496/upload/video'
+        icon: /image/icon/bilibili.png
