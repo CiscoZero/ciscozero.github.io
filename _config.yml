@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Base area
+title: Base Area
 subtitle: '假装自己是一个程序员'
 description: '这里没有审查,只有你'
 keywords: 个人博客
@@ -117,3 +117,15 @@ theme_config:
       - name: Bilibili
         link: 'https://space.bilibili.com/43741496/upload/video'
         icon: /image/icon/bilibili.png
+  music:
+    enable: true
+    autoplay: false
+    songs:
+      - title: '工场迹'
+        artist: '光田康典'
+        cover: ''
+        url: '/music/koujouseki.mp3'
+      - title: '幻灯機'
+        artist: 'indigo2,v flower'
+        cover: ''
+        url: '/music/gentouki.mp3'
