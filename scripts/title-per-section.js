@@ -21,11 +21,11 @@ hexo.extend.filter.register('after_render:html', function (str, data) {
     // 文章页：优先文章标题，空则取路径最后一段
     title = (pageTitle && pageTitle.trim()) || (data.page.path.split('/').filter(Boolean).pop() || '');
   } else if (String(data.path || '').startsWith('archives/') || String(data.path || '') === 'archives/index.html') {
-    title = '归档';
+    title = 'Archives';
   } else if (String(data.path || '').startsWith('tags/')) {
-    title = '标签';
+    title = 'Tags';
   } else if (String(data.path || '').startsWith('categories/')) {
-    title = '分类';
+    title = 'Categories';
   } else if (String(data.path || '') === 'index.html') {
     title = '';
   } else if (layout && layout !== 'layout' && layout !== 'index') {
