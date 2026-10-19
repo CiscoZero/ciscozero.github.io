@@ -123,7 +123,7 @@ theme_config:
     songs:
       - title: 'Beauty Plus'
         artist: 'PrismCorp Virtual Enterprises'
-        cover: ''
+        cover: '/music/beauty_plus_cover.png'
         url: '/music/beauty_plus.mp3'
       - title: '工场迹'
         artist: '光田康典'
