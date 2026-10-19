@@ -121,6 +121,10 @@ theme_config:
     enable: true
     autoplay: false
     songs:
+      - title: 'Beauty Plus'
+        artist: 'PrismCorp Virtual Enterprises'
+        cover: ''
+        url: '/music/beauty_plus.mp3'
       - title: '工场迹'
         artist: '光田康典'
         cover: '/music/koujouseki_cover.png'
