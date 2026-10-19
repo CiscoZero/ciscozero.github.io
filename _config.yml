@@ -159,3 +159,6 @@ theme_config:
     list:
       - name: 巳忆笔记
         link: https://lleft.cn/
+  reading_stats:
+    enable: true
+    speed: 300
