@@ -28,6 +28,8 @@ hexo.extend.filter.register('after_render:html', function (str, data) {
     title = 'Categories';
   } else if (String(data.path || '') === 'index.html') {
     title = '';
+  } else if (String(data.path || '').startsWith('about/')) {
+    title = 'About';
   } else if (layout && layout !== 'layout' && layout !== 'index') {
     // 其他板块页（about 等）：页面标题或板块名
     title = (pageTitle && pageTitle.trim()) || layout;
