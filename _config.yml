@@ -149,3 +149,9 @@ theme_config:
         artist: '内山修作'
         cover: '/music/rockman8_cover.jpg'
         url: '/music/kichi_stage.mp3'
+  friends:
+    enable: true
+    title: Friends
+    list:
+      - name: 巳忆笔记
+        link: https://lleft.cn/
