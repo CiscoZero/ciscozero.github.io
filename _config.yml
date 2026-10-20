@@ -162,3 +162,5 @@ theme_config:
   reading_stats:
     enable: true
     speed: 300
+  tags:
+    enable: true

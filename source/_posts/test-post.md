@@ -1,4 +1,6 @@
 ---
+title: 这是一篇测试文章
+tags: [测试, 随笔]
 AIGC:
     Label: "1"
     ContentProducer: 001191440300708461136T1XGW3

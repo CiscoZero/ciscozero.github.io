@@ -1,5 +1,6 @@
 ---
 title: 奉献
+tags: [圣经, 灵修]
 AIGC:
     Label: "1"
     ContentProducer: 001191440300708461136T1XGW3
