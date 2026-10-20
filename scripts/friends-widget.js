@@ -37,7 +37,8 @@ hexo.extend.filter.register('after_render:html', function (str) {
       '<div class="friend-list">' + items + '</div>' +
     '</div>' +
     '<style>' +
-    '.friend-widget{border-radius:3px;padding:10px;}' +
+    '.friend-widget{border-radius:3px;padding:10px;margin-bottom:50px;}' +
+    'footer{margin-top:60px;}' +
     '.friend-widget .friend-header{font-size:20px;padding:0 0 10px;text-shadow:0 0 10px var(--white-main),0 0 10px var(--white-main),0 0 10px var(--white-main),0 0 10px var(--white-main),0 0 10px var(--white-main),0 0 10px var(--white-main);}' +
     '.friend-widget .friend-list{background:var(--white-main);box-shadow:0 0 0 .5px var(--black-main),0 0 0 1.5px var(--white-main);padding:10px;display:flex;flex-direction:column;gap:6px;}' +
     '.friend-widget .friend-link{width:100%;color:var(--primary-color);text-decoration:none;border-bottom:1px solid transparent;padding:2px 0;transition:.2s;}' +
