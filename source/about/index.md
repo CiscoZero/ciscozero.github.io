@@ -1,3 +1,5 @@
+![Celeste 壁纸](/image/wp4162202-celeste-game-wallpapers.png)
+
 这里是 CiscoZero。
 
 这个地方姑且叫它「根据地」吧。
