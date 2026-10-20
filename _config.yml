@@ -164,3 +164,22 @@ theme_config:
     speed: 300
   tags:
     enable: true
+  theme_switcher:
+    enable: true
+    themes:
+      - primary: '#3c7fb1'
+        highlight: '#aaddfa'
+        secondary: '#d8e1e7'
+        background: '/image/theme/asadal_stock_69.jpg'
+      - primary: '#ba57b4'
+        highlight: '#faaafa'
+        secondary: '#e6d8e7'
+        background: '/image/theme/ev5000a.webp'
+      - primary: '#47ba40'
+        highlight: '#aafaaa'
+        secondary: '#d8e7d9'
+        background: '/image/theme/elysium.webp'
+      - primary: '#3c57b1'
+        highlight: '#aab5fa'
+        secondary: '#d8dde7'
+        background: '/image/theme/yuki.webp'
