@@ -57,7 +57,8 @@ hexo.extend.filter.register('after_render:html', function (str, data) {
       '.theme-buttons{display:flex;flex-direction:row;gap:10px;justify-content:center;padding:8px 0;}' +
       '.theme-btn{width:40px;height:40px;padding:8px;border-radius:20px;display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;cursor:pointer;' +
         'background:var(--aero-grad);box-shadow:inset 0 0 0 1px var(--white-main),0 0 0 .5px var(--black-main),3px 3px 10px rgba(0,0,0,.6);}' +
-      '.theme-btn .theme-icon{width:100%;height:100%;object-fit:contain;pointer-events:none;}' +
+      '.theme-btn::after{border-radius:20px;}' +
+      '.theme-btn .theme-icon{width:100%;height:100%;object-fit:contain;pointer-events:none;position:relative;z-index:2;}' +
       'body.ui-hidden .container{opacity:0;transition:opacity .5s;}' +
       'body.ui-hidden-done .container{visibility:hidden;transition:none;}' +
       '.ui-hidden-overlay{z-index:9999;position:fixed;inset:0;}' +
