@@ -14,6 +14,10 @@ hexo.extend.filter.register('after_render:html', function (str, data) {
   const html =
     '<style>' +
       '.music-widget{position:static !important;top:auto !important;}' +
+      '@supports not (background: rgba(from red r g b / 0.3)){' +
+        '.card{background:rgba(60,127,177,.3);}' +
+        '.avatar-bg{background:linear-gradient(to bottom,#e8eef2 0%,#d8e1e7 50%,#c2cbd1 51%,#d8e1e7 100%);}' +
+      '}' +
     '</style>';
 
   return str.replace('</aside>', html + '</aside>');
