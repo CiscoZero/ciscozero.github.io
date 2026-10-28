@@ -27,4 +27,3 @@ AIGC:
 这是我的第一个原创项目，我必须完成它。
 
   *The road to healing is going to be a long one. You will make it someday.*
-*（内容由AI生成，仅供参考）*
